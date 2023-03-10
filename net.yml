@@ -1,0 +1,8 @@
+# network structures
+network_g:
+  type: FNAFNet
+  width: 32
+  enc_blk_nums: [1, 1, 1, 1]
+  middle_blk_num: 1
+  dec_blk_nums: [1, 1, 1, 1]
+
